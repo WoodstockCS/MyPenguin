@@ -1,13 +1,13 @@
 // Patrick Bald
 // MyPenguin
 // 1/20/17
+size(600, 600);
 
 stroke(0);
 strokeWeight(15);
 line(320, 300, 350, 375);
 line(280, 300, 248, 375);
 
-size(600, 600);
 stroke(0, 0, 0);
 strokeWeight(10);
 ellipse(300, 350, 75, 120);

@@ -1,3 +1,5 @@
+//Ethan Earle
+//My Penguin 1/26/17
 background(60,186,198);
 size(400,450);
 fill(155,247,255);

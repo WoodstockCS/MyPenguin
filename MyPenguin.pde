@@ -1,8 +1,8 @@
 //CarlGebhardt
 //Penguin
+size(1000,1000);
 strokeWeight(10);
 stroke(0,0,0);
-size(1000,1000);
 ellipse(200,400,150,300);
 fill(255,234,0);
 ellipse(150,550,25,35);

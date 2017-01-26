@@ -8,9 +8,6 @@ stroke(255, 149, 0);
 ellipse(230, 350, 30, 40);
 ellipse(270, 350, 30, 40);
 
-arc(190, 240, 200, 200, radians(195), radians(295), CHORD);
-arc(310, 240, 200, 200, radians(245), radians(345), CHORD);
-
 stroke(0);
 fill(0);
 ellipse(250, 100, 100, 100);
@@ -38,4 +35,5 @@ ellipse(250, 240, 100, 200);
 
 fill(0);
 stroke(0);
-
+arc(190, 240, 200, 200, radians(195), radians(295), CHORD);
+arc(310, 240, 200, 200, radians(245), radians(345), CHORD);

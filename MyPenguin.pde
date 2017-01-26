@@ -1,3 +1,24 @@
-// replace this with your code
-size(100, 100);
-ellipse(50, 50, 50, 50);
+size(300,300);
+
+fill(255,127,0);
+stroke(0);
+triangle(200,240,160,240,170,200);
+triangle(100,240,140,240,130,200);
+fill(0);
+stroke(127);
+ellipse(150,150,100,150);
+stroke(0);
+ellipse(150,85,60,75);
+fill(255);
+ellipse(150,150,60,110);
+ellipse(140,65,15,15);
+ellipse(160,65,15,15);
+fill(0);
+arc(140,65,15,15,0,PI/2);
+arc(160,65,15,15,0,PI/2);
+fill(255,127,0);
+triangle(140,72,160,72,150,80);
+fill(0);
+stroke(127);
+ellipse(110,150,30,100);
+ellipse(190,150,30,100);

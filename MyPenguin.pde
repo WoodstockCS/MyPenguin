@@ -41,15 +41,15 @@ void draw() {
     fill(0, 0, 0);
     beginShape(); // right wing
     curveVertex(mouseX, mouseY);
-    curveVertex(mouseX - 20, mouseY + 20);
+    curveVertex(mouseX - 20, mouseY - 20);
     curveVertex(mouseX, mouseY - 35);
-    curveVertex(mouseX + 30, mouseY + 30);
+    curveVertex(mouseX + 30, mouseY + 15);
     endShape(CLOSE);
     beginShape(); // left wing
     curveVertex(mouseX, mouseY);
-    curveVertex(mouseX + 20, mouseY + 20);
+    curveVertex(mouseX + 20, mouseY - 20);
     curveVertex(mouseX, mouseY - 35);
-    curveVertex(mouseX - 30, mouseY + 30);
+    curveVertex(mouseX - 30, mouseY + 15);
     endShape(CLOSE);
     ellipse(mouseX, mouseY - 39, 24, 24); // head
     fill(155);

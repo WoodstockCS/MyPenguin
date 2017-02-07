@@ -1,3 +1,21 @@
-// replace this with your code
-size(100, 100);
-ellipse(50, 50, 50, 50);
+//Patrick Potter
+//MyPenguin
+//1-20/17
+size(400,400);
+strokeWeight(7);
+ellipse(200,200,40,60);
+strokeWeight(3);
+ellipse(215,235,20,10);
+ellipse(185,235,20,10);
+ellipse(200,160,30,30);
+point(195,155);
+point(205,155);
+noStroke();
+fill(224,104,43);
+triangle(195,160,203,160,200,165);
+stroke(0);
+strokeWeight(7);
+line(185,180,170,215);
+line(170,215,180,210);
+line(215,180,230,215);
+line(230,215,219,209);
